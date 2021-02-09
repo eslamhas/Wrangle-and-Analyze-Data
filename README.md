@@ -11,7 +11,7 @@ The tasks of this project are as follows:
 ### •	Assessing data
 ### •	Cleaning data
 
-Gathering data
+### Gathering data
 
 The data for this project consist on three different dataset that were obtained as following:
 
@@ -21,3 +21,8 @@ The data for this project consist on three different dataset that were obtained 
 
 •	Twitter API & JSON: by using the tweet IDs in the WeRateDogs Twitter archive, I queried the Twitter API for each tweet's JSON data using Python's Tweepy library and stored each tweet's entire set of JSON data in a file called tweet_json.txt file. I read this .txt file line by line into a pandas dataframe with tweet ID, favorite count, retweet count, followers count, friends count, source, 
 
+### Assessing data
+Once the three tables were obtained I assessed the data as following:
+•	Visually, I used two tools. One was by printing the three entire dataframes separate in Jupyter Notebook and two by checking the csv files in Excel.
+•	Programmatically, by using different methods (e.g. info, value_counts, sample, duplicated, groupby, etc).
+                Then I separated the issues encountered in quality issues and tidiness issues. Key points to keep in mind for this process was that original ratings with images were wanted.
